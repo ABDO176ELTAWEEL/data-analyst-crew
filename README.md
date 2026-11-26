@@ -233,4 +233,4 @@ The `gemini/` prefix tells CrewAI which provider to use. You can switch to anoth
 
 
 - Sample data: the Mall Customers dataset (publicly available on Kaggle).
-- Licensed under the [MIT License](LICENSE).
+
