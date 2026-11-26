@@ -1,4 +1,4 @@
-# 📊 Data Analyst Crew (CrewAI + Gemini)
+#  Data Analyst Crew (CrewAI + Gemini)
 
 Upload a CSV, ask a question in plain English, and a team of four AI agents analyzes the data, double-checks the numbers, draws a chart, and writes a short report.
 
@@ -8,7 +8,7 @@ Built with **CrewAI**, **Google Gemini**, **Pandas**, **Matplotlib**, and **Grad
 
 ---
 
-## ✨ Features
+## Features
 
 - **Natural-language questions** about any CSV file (no SQL or pandas needed).
 - **Four specialized agents** that cooperate in sequence and check each other's work.
@@ -19,7 +19,7 @@ Built with **CrewAI**, **Google Gemini**, **Pandas**, **Matplotlib**, and **Grad
 
 ---
 
-## 🔄 How It Works
+##  How It Works
 
 ```text
 CSV + question
@@ -43,7 +43,7 @@ Markdown report + chart
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 | File | Description |
 | :--- | :--- |
@@ -57,14 +57,14 @@ Markdown report + chart
 
 ---
 
-## ⚙️ Prerequisites
+##  Prerequisites
 
 - **Python 3.12** (Python 3.14 is not supported at the time of writing: some dependencies such as `numpy` have no prebuilt wheels for it and the install fails)
 - A **Google Gemini API key** from [Google AI Studio](https://aistudio.google.com/) (the free tier is enough for experiments)
 
 ---
 
-## 🚀 Setup & Installation
+##  Setup & Installation
 
 1. **Clone the repository**
    ```bash
@@ -103,7 +103,7 @@ Markdown report + chart
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 - **Web app (recommended):**
   ```bash
@@ -121,7 +121,7 @@ Markdown report + chart
   python three_agent.py
   ```
 
-### 💡 Tip: be specific in your question
+###  Tip: be specific in your question
 
 Questions like *"Which age group has the highest spending score?"* leave the grouping up to the agent, so different runs may use different age bins and give different answers. Specify the grouping yourself:
 
@@ -129,7 +129,7 @@ Questions like *"Which age group has the highest spending score?"* leave the gro
 
 ---
 
-## 📄 Example Output
+##  Example Output
 
 **Question:** *Which age group has the highest average spending score?* *(sample run on the Mall Customers dataset)*
 
@@ -149,7 +149,7 @@ The age group with the highest average spending score is the 18-30 category, whi
 
 ---
 
-## 🛡️ Guardrails
+##  Guardrails
 
 Agents can make mistakes, loop forever, or invent numbers, so the project wraps them in several layers of protection:
 
@@ -165,7 +165,7 @@ Agents can make mistakes, loop forever, or invent numbers, so the project wraps 
 
 ---
 
-## ⚠️ Limitations & Security
+##  Limitations & Security
 
 Please read this before using or deploying the project:
 
@@ -178,7 +178,7 @@ Please read this before using or deploying the project:
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 The model is set in the `LLM(...)` call near the top of each script:
 
@@ -193,7 +193,7 @@ The `gemini/` prefix tells CrewAI which provider to use. You can switch to anoth
 
 ---
 
-## 🩺 Troubleshooting
+##  Troubleshooting
 
 | Problem | Fix |
 | :--- | :--- |
@@ -205,7 +205,7 @@ The `gemini/` prefix tells CrewAI which provider to use. You can switch to anoth
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - [CrewAI](https://www.crewai.com/): multi-agent orchestration
 - [Google Gemini](https://ai.google.dev/): LLM
@@ -215,7 +215,7 @@ The `gemini/` prefix tells CrewAI which provider to use. You can switch to anoth
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Evaluation script: a set of questions with known answers to measure the crew's accuracy
 - [ ] Sandboxed code execution (Docker)
@@ -224,8 +224,6 @@ The `gemini/` prefix tells CrewAI which provider to use. You can switch to anoth
 
 ---
 
-## 🙏 Acknowledgments
 
-- Learned with the DeepLearning.AI course *Multi AI Agent Systems with crewAI* on Coursera.
 - Sample data: the Mall Customers dataset (publicly available on Kaggle).
 - Licensed under the [MIT License](LICENSE).
