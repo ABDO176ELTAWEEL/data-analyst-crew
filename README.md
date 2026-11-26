@@ -2,6 +2,13 @@
 
 Upload a CSV, ask a question in plain English, and a team of four AI agents analyzes the data, double-checks the numbers, draws a chart, and writes a short report.
 
+this is demo vedio
+
+
+https://github.com/user-attachments/assets/53ce2138-b62c-4e43-97dc-86baa7dabd8a
+
+
+
 Built with **CrewAI**, **Google Gemini**, **Pandas**, **Matplotlib**, and **Gradio**. The repo grows step by step: from a single agent with one tool to a guarded 4-agent web app.
 
 <!-- Add a screenshot of the Gradio UI here: ![Gradio UI](docs/screenshot.png) -->
